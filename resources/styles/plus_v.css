@@ -1,0 +1,408 @@
+/* Footer */
+footer {
+  background: #ede8e4;
+  height: 300px;
+  margin: 200px 0 0;
+  padding: 45px 427px 127px 360px;
+}
+
+.footer-logo {
+  flex: 0 0 21%;
+}
+
+.footer-content {
+  flex: 0 0 79%;
+  max-width: 79%;
+}
+
+.footer-content > .widget > p {
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.75;
+  letter-spacing: normal;
+  text-align: left;
+  color: #222;
+  padding-bottom: 20px;
+}
+
+.footer-content > p {
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.75;
+  letter-spacing: normal;
+  text-align: left;
+  color: #999;
+}
+/* Major */
+.major {
+  margin: 100px 0;
+}
+
+.major .title.major-pfs {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.major .major-title {
+  height: 72px;
+  background: #eee;
+}
+
+.major-title h2 {
+  padding: 15px 0;
+}
+
+.major-content {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.major-content li a {
+  font-size: 22px;
+  line-height: 1.95;
+  color: #767676;
+  text-decoration: none;
+}
+
+.major-content li:hover a {
+  color: #000;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.tab-2 {
+  border-right: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+}
+
+/* Client */
+.client .client-title {
+  height: 72px;
+  padding: 19px 500px;
+  background-color: #eee;
+}
+
+.client-title > h3,
+.major-title > h2 {
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 1.54;
+  text-align: center;
+  color: #706682;
+}
+
+.client ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.client .brand-item {
+  flex: 0 0 16%;
+  max-width: 16%;
+  padding: 28px 12px;
+  border-bottom: solid 1px #ddd;
+}
+
+.brand-item.show {
+  display: block;
+}
+.brand-item {
+  display: none;
+}
+.client .client-bottom {
+  text-align: center;
+}
+
+.client .client_icon {
+  display: block;
+  width: 40px;
+  height: 40px;
+  border-right: 0.1em solid #bbb;
+  border-top: 0.1em solid #bbb;
+  transform: rotate(135deg);
+  margin: 0 auto;
+}
+
+/* Template Client */
+.template-client .client-heading {
+  text-align: center;
+  position: relative;
+}
+
+.template-client .client-heading > h2 {
+  height: 48px;
+  margin: 200px 0 20px;
+  font-size: 40px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #222;
+  text-transform: uppercase;
+}
+
+.template-client .client-heading h2::after {
+  content: " ";
+  display: block;
+  width: 60px;
+  height: 1px;
+  background: #767676;
+  margin: 21.5px 129.5px 37.5px 130.5px;
+  position: absolute;
+  top: 40px;
+  left: 393px;
+}
+
+.template-client .client-heading p {
+  height: 36px;
+  margin: 60px 94px 82px;
+  font-size: 22px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.55;
+  letter-spacing: normal;
+  text-align: center;
+  color: #555;
+}
+
+.client-banner {
+  margin: 239.9px 0 183px;
+}
+
+.client-banner {
+  width: 100%;
+  height: 630px;
+}
+
+.template-client .brand-item.show {
+  height: 80px;
+  padding: 25px 12px 20px;
+  margin-top: 10px;
+}
+
+/* client-banner */
+
+.client-banner {
+  position: relative;
+}
+
+.client-banner::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 0;
+}
+
+.client-banner img {
+  height: 630px;
+}
+
+.client-banner-title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  color: #fff;
+}
+
+.client-banner-title {
+  margin: 177px 0 148px 400px;
+}
+
+.client-banner-title h2 {
+  height: 54px;
+  margin: 0 578px 55px 0;
+  font-size: 45px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.18;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fff;
+}
+
+.client-banner-title p {
+  height: 196px;
+  margin: 55px 0 0;
+  font-family: NotoSansCJKKR;
+  font-size: 24px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fff;
+}
+
+/* work about */
+.template-work-about .about-works {
+  margin-top: 200px;
+}
+.about-works .ab-title .num-order {
+  font-size: 43px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #e2d9eb;
+}
+
+.ab-title .ab-heading {
+  font-size: 40px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #222;
+  position: relative;
+}
+
+.ab-title .ab-heading::after {
+  content: " ";
+  display: block;
+  width: 60px;
+  height: 1px;
+  background: #767676;
+  margin: 21.5px 129.5px 37.5px 130.5px;
+  position: absolute;
+  top: 45px;
+  left: 393px;
+}
+
+.ab-title > p {
+  font-size: 22px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.55;
+  letter-spacing: normal;
+  text-align: center;
+  color: #767676;
+  margin: 19px 0 23px;
+}
+
+.about-works .about-desc {
+  margin-top: 49px;
+  margin-bottom: 51px;
+}
+
+.about-desc .classify {
+  display: flex;
+}
+
+.classify span {
+  font-size: 22px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #222;
+  padding: 12px 50px 11px;
+  width: 210px;
+  margin-right: 30px;
+}
+
+.classify p {
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #222;
+  padding: 12px 0 11px;
+  position: relative;
+}
+
+.classify p::after {
+  content: "";
+  border-left: 1px solid #ccc;
+  height: 40px;
+  position: absolute;
+  top: 7px;
+  left: -35px;
+}
+
+.classify {
+  border-bottom: 1px solid #767676;
+}
+
+.classify:first-child {
+  border-top: 1px solid #767676;
+}
+
+/* Work */
+
+.template-work .work-title {
+  margin: 200px 0 88px;
+  display: flex;
+  justify-content: center;
+}
+
+.work-title .num-order {
+  font-size: 43px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #e2d9eb;
+}
+
+.work-title strong {
+  font-size: 35px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #222;
+  margin: 6px 0 6px 13px;
+}
+
+.work-image {
+  display: flex;
+  justify-content: center;
+}
+
+.work-image img {
+  margin: 0 10px;
+}
+
+/* Header - bars */
+
+#logo .icon-bars {
+  position: absolute;
+  right: 50px;
+  top: 48px;
+  display: none;
+}
+
+#logo .icon-bars i {
+  font-size: 30px;
+}

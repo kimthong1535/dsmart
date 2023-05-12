@@ -1,0 +1,456 @@
+@media only screen and (max-width: 1366px) {
+  /* danh sách cán bộ */
+  .breadcrumb {
+    padding-top: 25px;
+    font-size: 15px;
+  }
+  .article {
+    padding: 10px 10px 0;
+  }
+  .article-img img {
+    width: 100%;
+  }
+  /* Thong tin can bo */
+  body {
+    font-size: 14px;
+  }
+  .breadcrumb {
+    padding-top: 25px;
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  /* danh sách cán bộ */
+  .breadcrumb {
+    padding-top: 25px;
+    font-size: 15px;
+  }
+  
+  .article-img img {
+    width: 100%;
+  }
+  /* Thong tin can bo */
+  body {
+    font-size: 14px;
+  }
+  .breadcrumb {
+    padding-top: 25px;
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .video-content {
+    padding: 0 15px 30px;
+  }
+  /* single-su_kien */
+  .single-su_kien h2:after {
+    top: 80px;
+  }
+
+  .department-name {
+    position: relative;
+    right: 55px;
+  }
+
+  td {
+    color: #666;
+    line-height: 2.5;
+    border-bottom: 1px solid #ececec;
+  }
+
+  /* danh sách cán bộ */
+  .breadcrumb {
+    padding-top: 28px;
+    font-size: 15px;
+    position: relative;
+    left: 10px;
+  }
+  .search {
+    left: 10px;
+    position: relative;
+  }
+  .article-img img {
+    width: 100%;
+  }
+  /* Thong tin can bo */
+  body {
+    font-size: 14px;
+  }
+  .breadcrumb {
+    padding-top: 25px;
+    font-size: 15px;
+  }
+  
+}
+@media only screen and (max-width: 991px) {
+  #post-list > .row{
+    width: 100%;
+    margin: 0 auto;
+    gap: 10px;
+  }
+  .article .title {
+    padding: 12px 0px;
+  }
+  .template-cardes .row .article {
+    flex: 0 0 23%;
+    max-width: 23%;
+    margin-bottom: 0;
+  }
+}
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  td {
+    color: #666;
+    line-height: 2.5;
+    border-bottom: 1px solid #ececec;
+  }
+
+  .col-full {
+    max-width: 100%;
+  }
+
+  /* single-su_kien */
+  .department-name {
+    right: 55px;
+    position: relative;
+  }
+
+  .breadcrumb {
+    font-size: 14px;
+  }
+
+  .single-su_kien h2 {
+    margin-top: 25px;
+    font-weight: 700;
+  }
+
+  .bd-mb {
+    display: block;
+  }
+
+  .sidebar {
+    margin: 15px 0;
+  }
+
+  /* danh sách cán bộ */
+  .breadcrumb {
+    padding-top: 28px;
+    font-size: 15px;
+    position: relative;
+    left: 10px;
+  }
+
+  .search {
+    left: 10px;
+    position: relative;
+  }
+  .article-img img {
+    width: 100%;
+  }
+  /* Thong tin can bo */
+  body p {
+    font-size: 14px;
+  }
+  .breadcrumb {
+    padding-top: 25px;
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 601px) {
+  h1 {
+    font-size: 2rem;
+  }
+  .video-content {
+    flex-wrap: wrap;
+    grid-row-gap: 20px;
+  }
+  .template-cardes .row .article {
+    flex: 0 0 30%;
+    max-width: 30%;
+}
+.submit-button {
+  margin: 0 auto;
+}
+  td {
+    color: #666;
+    line-height: 2.5;
+    border-bottom: 1px solid #ececec;
+  }
+
+  .col-full {
+    max-width: 100%;
+  }
+  /* single-su_kien */
+  .department-name {
+    right: 20px;
+  }
+
+  .single-su_kien h2 {
+    margin: 15px 0;
+    font-weight: 700;
+  }
+
+  .single-su_kien h2:after {
+    top: 80px;
+  }
+
+  .sidebar {
+    margin: 15px 0;
+  }
+
+  /* Danh sách cán bộ */
+  .breadcrumb {
+    padding-top: 28px;
+    font-size: 15px;
+    position: relative;
+    left: 10px;
+  }
+
+  .search {
+    left: 10px;
+    position: relative;
+  }
+
+  .submit-button {
+    left: 10px;
+    position: relative;
+  }
+
+  .article-img img {
+    width: 100%;
+  }
+  .article-img img {
+    width: 100%;
+  }
+  /* Thong tin can bo */
+  body p {
+    font-size: 14px;
+  }
+  .breadcrumb {
+    padding-top: 25px;
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  td {
+    color: #666;
+    line-height: 2.5;
+    border-bottom: 1px solid #ececec;
+  }
+
+  .col-full {
+    max-width: 100%;
+  }
+
+  /* single-su_kien */
+  .department-name h3 {
+    font-size: 13px;
+  }
+
+  .single-su_kien h2 {
+    margin: 15px 0;
+    font-weight: 700;
+  }
+
+  .sidebar {
+    margin: 15px 0;
+  }
+
+  /* Danh sách cán bộ */
+  .breadcrumb {
+    padding-top: 28px;
+    font-size: 15px;
+    position: relative;
+    left: 10px;
+  }
+  .article-img img {
+    width: 100%;
+  }
+  .search {
+    left: 10px;
+    position: relative;
+  }
+  /* Thong tin can bo */
+  body p {
+    font-size: 14px;
+  }
+  .breadcrumb {
+    padding-top: 25px;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  h1 {
+    font-size: 2rem;
+  }
+  .template-cardes .row .article {
+      flex: 0 0 48%;
+      max-width: 48%;
+  }
+  td {
+    color: #666;
+    line-height: 1.5;
+    border-bottom: 1px solid #ececec;
+  }
+
+  .col-full {
+    max-width: 100%;
+  }
+
+  /* single-su_kien */
+  .single-su_kien h2 {
+    margin: 15px 0;
+    font-weight: 700;
+  }
+
+  .sidebar {
+    margin: 15px 0;
+  }
+  /* Danh sách cán bộ */
+  .breadcrumb {
+    padding-top: 28px;
+    font-size: 15px;
+    position: relative;
+    left: 10px;
+  }
+  .search {
+    left: 10px;
+    position: relative;
+  }
+  .article-img img {
+    width: 100%;
+  }
+  /* Thong tin can bo */
+  body p {
+    font-size: 14px;
+  }
+  .breadcrumb {
+    padding-top: 25px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  td {
+    font-size: 15px;
+    color: #666;
+    line-height: 1.5;
+    border-bottom: 1px solid #ececec;
+  }
+
+  .col-full {
+    max-width: 100%;
+  }
+
+  /* single-su_kien */
+  .single-su_kien h2 {
+    margin: 15px 0;
+    font-weight: 700;
+  }
+
+  .single-su_kien h2:after {
+    top: 95px;
+  }
+
+  .sidebar {
+    margin: 15px 0;
+  }
+  /* Danh sách cán bộ */
+  .breadcrumb {
+    padding-top: 28px;
+    font-size: 15px;
+    position: relative;
+    left: 10px;
+  }
+  .search {
+    left: 10px;
+    position: relative;
+  }
+  .article-img img {
+    width: 100%;
+  }
+  /* Thong tin can bo */
+  body p {
+    font-size: 14px;
+  }
+  .breadcrumb {
+    padding-top: 25px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  td {
+    font-size: 15px;
+    color: #666;
+    line-height: 1.5;
+    border-bottom: 1px solid #ececec;
+  }
+
+  .col-full {
+    max-width: 100%;
+  }
+
+  /* single-su_kien */
+  .single-su_kien h2 {
+    margin: 15px 0;
+    font-weight: 700;
+  }
+
+  .single-su_kien h2:after {
+    top: 95px;
+  }
+
+  .sidebar {
+    margin: 15px 0;
+  }
+  /* Danh sách cán bộ */
+  .breadcrumb {
+    padding-top: 28px;
+    font-size: 15px;
+    position: relative;
+    left: 10px;
+  }
+  .search {
+    left: 10px;
+    position: relative;
+  }
+  .article-img img {
+    width: 100%;
+  }
+  /* Thong tin can bo */
+  body p {
+    font-size: 14px;
+  }
+  .breadcrumb {
+    padding-top: 25px;
+  }
+  .large-4 {
+    flex: 0 0 25.333333%;
+  }
+}

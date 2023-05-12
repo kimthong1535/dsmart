@@ -1,0 +1,273 @@
+@media (min-width: 1500px) {
+    .slide-video {
+        height: 830px;
+    }
+    #footer {
+        max-width: 1200px;
+    }
+}
+@media (max-width: 1499px) {
+    #footer {
+        max-width: 1000px;
+    }
+}
+
+/*Fix home v2 ipad*/
+@media (max-width:1024px) and (min-width: 768px) {
+    .first-column-title p {
+        display: block;
+        max-height: 200px;
+        overflow: hidden;
+    }
+    #top-menu #top-menu-left>ul>li>a
+    {
+        padding: 15px 8px;
+    } 
+}
+
+@media (max-width:767px) {
+    .slide-video {
+        height: 500px;
+    }
+    .second-banner {
+        margin-top: 34px !important;
+        /*fix margin top 20px - because slide above auto height not 100%*/
+        padding: 0 15px;
+    }
+    #collection-newest {
+        margin-top: 14px;
+        /*fix margin top 20px - because slide above auto height not 100%*/
+    }
+    #footerview {
+        margin-top: 25px;
+    }
+    #collection-newest {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    #collection-newest .item {
+        padding: 0 15px 10px;
+    }
+    #collection-newest .item:last-child {
+        padding-bottom: 0;
+    }
+    #block-sale {
+        padding: 0 15px;
+        margin-top: 20px !important;
+    }
+    #delivery {
+        margin-top: 20px;
+    }
+    #paper {
+        padding-left: 10px;
+        padding-right: 10px;
+        margin: 0;
+    }
+    .paper-first-column {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+    .paper-second-column {
+        padding-top: 10px !important;
+        margin: 0 !important;
+    }
+    .paper-first-column .item {
+        width: 99%;
+        margin: 0 auto;
+    }
+    .paper-second-column .item {
+        width: 98%;
+        margin: 0 auto;
+        padding-bottom: 8px;
+    }
+    .paper-second-column .album {
+        margin-bottom: 15px !important;
+        padding-left: 0;
+    }
+    .paper-second-column .item>a>h5 {
+        padding-top: 0;
+        bottom: 20px;
+    }
+    .paper-title img {
+        width: 50%;
+    }
+
+    .paper-title h5 {
+        padding: 30px 0 25px 0;
+    }
+
+    .menu-m .ul-submenu-m-child li {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .menu-m .ul-submenu-m-child li:first-child {
+        margin-top: 20px;
+    }
+
+    .menu-m .ul-submenu-m-child li:last-child {
+        margin-bottom: 5px;
+    }
+
+    #notification .noti-title {
+        padding: 15px 0;
+    }
+
+    #notification .noti-content {
+        padding-bottom: 15px;
+        line-height: 2.3;
+    }
+
+    .read-more {
+        padding: 15px 0 30px;
+    }
+
+    #our-store {
+        padding: 0 15px;
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+
+    .ourstore-showroom-img {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    #footer {
+        padding: 0;
+    }
+
+    .img-mobile {
+        display: block !important;
+    }
+
+   
+
+    /*footer mobile*/
+    #footer-col-3 {
+        padding-left: 0 !important;
+    }
+
+    #footer .item ul li:not(:first-child) {
+        display: none;
+        padding: 0 28px 15px;
+    }
+
+    #footer .item ul li:nth-child(2) {
+        padding-top: 15px;
+    }
+
+    #footer ul {
+        margin-bottom: 0;
+    }
+
+    #footer ul li a:hover {
+        color: #665959;
+    }
+
+   
+
+    #footer ul li h5 {
+        font-weight: normal;
+        margin-bottom: 0;
+        text-transform: uppercase;
+        font-size: 14px;
+    }
+
+    #footer ul li a {
+        font-size: 14px;
+    }
+
+    .wp-ft {
+        padding: 0 !important;
+    }
+
+    #footer .arrow {
+        border: solid #9098a0;
+        border-width: 0 2px 2px 0;
+        display: inline-block;
+        padding: 3px;
+    }
+
+    #footer .up {
+        transform: rotate(-135deg);
+        -webkit-transform: rotate(-135deg);
+        display: none;
+        float: left;
+        margin-top: 8px;
+        margin-right: 6px;
+    }
+
+    #footer .down {
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        float: left;
+        display: inline-block;
+        margin-top: 5px;
+        margin-right: 6px;
+    }
+
+    .noti-government img {
+        margin-top: 20px !important;
+        margin-bottom: 10px !important;
+    }
+
+    .noti-government ul {
+        margin-top: -10px;
+    }
+
+    .noti-government ul li:first-child,
+    .noti-government ul li:last-child {
+        padding-top: 0 !important;
+        margin-top: 0 !important;
+        border: none !important;
+    }
+
+    /*end footer mobile*/
+    .paper-second-column .album-title h6 {
+        bottom: -10px;
+    }
+
+    .paper-second-column .album-title h5 {
+        padding-top: 10px;
+    }
+}
+
+@media(max-width: 786px) {
+    .modal-dialog {
+        margin: auto 1.5rem;
+    }
+}
+@media (min-width: 1500px) {
+    .title-banner-fontsize {
+        font-size: 55px;
+    }
+}
+@media (max-width: 1499px) {
+    .title-banner-fontsize {
+        font-size: 55px;
+    }
+}
+@media (max-width:1499px) and (min-width: 768px) {
+    .title-banner-fontsize {
+        font-size: 55px;
+    }
+}
+@media (max-width:767px) {
+    .title-banner-fontsize {
+        font-size: 38px;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .content_wp {
+        width: 80%;
+        max-width: initial;
+    }
+    
+}
+@media screen and (max-width: 768px) {
+    .content_wp {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+}

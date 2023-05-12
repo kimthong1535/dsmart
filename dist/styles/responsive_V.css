@@ -1,0 +1,430 @@
+@media only screen and (max-width: 1367px) {
+  .single-page .right-sidebar li:last-child,
+  .news-template .right-sidebar li:last-child,
+  .template-event .right-sidebar li:last-child,
+  .questions-template .right-sidebar li:last-child,
+  .admin-template .right-sidebar li:last-child,
+  .admin-template .row .right-sidebar li:last-child,
+  .single-su_kien .row .textwidget li:last-child {
+    border-bottom: none;
+  }
+
+  .single-su_kien h2 {
+    text-align: unset;
+  }
+
+  .single-page .admin_content {
+    margin-bottom: 15px;
+  }
+
+  .single-cadres .col-md-5 strong {
+    font-size: 27px;
+    font-weight: bold;
+  }
+
+  .single-cadres .col-md-5 p:nth-child(3) strong {
+    font-size: 14px;
+  }
+
+  /* HD-tuyen-sinh */
+  .questions-template .row .accordion-inner img {
+    width: 100%;
+  }
+
+  .questions-template #text-8 {
+    margin-bottom: 30px;
+  }
+
+  .questions-template #text-8 input[type="submit"] {
+    width: 50% !important;
+    margin: 0 25%;
+  }
+  /* can-bo */
+  .single-cadres .row p:nth-child(5) {
+    word-wrap: break-word;
+  }
+
+  #post-list > .row {
+    margin-bottom: 25px !important;
+  }
+}
+@media only screen and (max-width: 1280px) {
+  .template-cardes .row .article {
+    flex: 0 0 20%;
+    max-width: 18%;
+  }
+
+  /* tin-tuc */
+  .news-template .front-news-item h4.title,
+  .template-event .front-news-item h4.title {
+    margin-top: 15px;
+  }
+  .news-template .front-news-item h4.title,
+  .news-template .front-news-item p.excerpt,
+  .template-event .front-news-item h4.title,
+  .template-event .front-news-item p.excerpt {
+    background: unset;
+    padding: 0;
+  }
+  .news-template .admin_content .row {
+    margin-bottom: 25px;
+  }
+
+  /* search */
+  .template-event .row .wp-pagenavi {
+    padding-top: 30px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+
+  .single-cadres img {
+    max-width: 100%;
+  }
+  /*HD-tuyen-sinh*/
+  .questions-template .row a.active {
+    font-size: 30px;
+  }
+  /* BGH */
+  .admin-template .row .box-content {
+    max-width: 29%;
+    margin: 0 10px 30px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 22px !important;
+  }
+  .page-template-template-cadres .search{
+    width: 100%;
+    margin: 0 0 20px 0;
+  }
+  .template-cardes .row .article {
+    flex: 0 0 33.33%;
+    max-width: 28%;
+  }
+
+  .template-event .event-list .event {
+    max-width: 45%;
+  }
+
+  .single-page .single-content,
+  .single-page .single-desc,
+  .single-page .left-menu {
+    max-width: 100%;
+  }
+
+  /* trung-tam-nghien-cuu */
+  .single-page .row,
+  .questions-template .front-news-item .row,
+  .news-template .row {
+    display: block;
+  }
+  .single-page .row .right-sidebar,
+  .single-page .row .admin_content {
+    max-width: 100%;
+    padding-bottom: 30px;
+  }
+  .admin_content .row {
+    display: flex;
+  }
+  .row .right-sidebar,
+  .row .admin_content {
+    max-width: 100%;
+    padding-bottom: 30px;
+  }
+
+  /* tin-tuc */
+
+  .news-template .thumbnail img {
+    width: 100%;
+  }
+  .news-template .wp-pagenavi {
+    justify-content: center;
+  }
+
+  /* su-kien */
+  .template-event .row {
+    display: block;
+  }
+
+  .template-event .event-list {
+    display: flex;
+    max-width: 100%;
+  }
+
+  .template-event .event .thumbnail img {
+    width: 100%;
+  }
+
+  .template-event .event .time {
+    top: 35%;
+    left: 10%;
+  }
+
+  .template-event .row .right-sidebar {
+    max-width: 100%;
+  }
+
+  /*HD-tuyen-sinh*/
+  .questions-template .row {
+    padding: 0 5px;
+  }
+
+  .questions-template .row .textwidget {
+    flex: 100%;
+    max-width: 100%;
+  }
+
+  .questions-template form .row {
+    display: flex;
+  }
+
+  .questions-template h1 {
+    font-size: 23px;
+  }
+
+  .questions-template #text-8 input[type="submit"] {
+    width: 50% !important;
+    margin: 0 25%;
+  }
+
+  /* search*/
+  .template-event .row .admin_content,
+  .template-event .row .col-md-6 {
+    max-width: 100%;
+  }
+
+  .template-event .front-news-item .thumbnail img {
+    width: 100%;
+  }
+
+  /* BGH */
+  .admin-template .admin_content {
+    max-width: 100%;
+  }
+
+  .admin-template .row .box-content {
+    max-width: 100%;
+  }
+
+  .admin-template .row .right-sidebar {
+    margin-bottom: 30px;
+  }
+
+  /* tuyển-sinh */
+  .single-page table {
+    max-width: 100%;
+  }
+
+  .news-template .news-template-content {
+    max-width: 100%;
+  }
+}
+@media only screen and (max-width: 602px) {
+  h1 {
+    font-size: 20px;
+  }
+  .page-template-template-cadres .search .nav_search ,.page-template-template-cadres .search select, .page-template-template-cadres .search input{
+    max-width: unset;
+    width: 100%;
+  }
+  .news-template .admin_content .row {
+    display: block;
+    width: 100%;
+  }
+  .news-template .admin_content .front-news-item {
+    max-width: 100%;
+  }
+  .news-template .front-news-item.template-news-item {
+    max-width: 100%;
+    padding: 0;
+  }
+  .news-template .admin_content .row {
+    margin: 0;
+    padding: 0;
+  }
+
+  .template-event .event-list {
+    display: block;
+    max-width: 100%;
+  }
+
+  .template-event .event-list .event {
+    max-width: 100%;
+  }
+
+  /* tin-tuc */
+  .news-template h4.title {
+    font-size: 16px;
+  }
+
+  .template-event .event .time {
+    top: 50%;
+  }
+
+  /* can bo */
+  .single-cadres .col-md-5 {
+    max-width: 100%;
+  }
+  .single-cadres .col-md-5 img {
+    width: 100%;
+  }
+  .single-cadres p,
+  .single-cadres li {
+    font-size: 15px;
+  }
+
+  /*HD-tuyen-sinh*/
+  .questions-template form p {
+    margin: 0 0 5px;
+  }
+
+  .questions-template .row a.active {
+    font-size: 19px;
+  }
+
+  /* Search */
+  .template-event .wp-pagenavi a:nth-child(4),
+  .template-event .wp-pagenavi a:nth-child(5),
+  .template-event .wp-pagenavi a:nth-child(11) {
+    display: none;
+  }
+}
+@media only screen and (max-width: 480px) {
+  h1 {
+    font-size: 20px !important;
+  }
+  h4 {
+    font-size: 19px;
+  }
+
+  .template-cardes .row .article {
+    flex: 0 0 50%;
+    max-width: 44%;
+  }
+
+  .row .right-sidebar,
+  .row .admin_content {
+    width: 100%;
+    padding-bottom: 30px;
+  }
+  .single-page .row .right-sidebar,
+  .single-page .row .admin_content {
+    width: 100%;
+    padding-bottom: 30px;
+  }
+
+  .single-page h3 {
+    font-size: 19px;
+  }
+
+  .single-page {
+    text-align: unset;
+  }
+
+  .template-event .event .time {
+    top: 42%;
+  }
+  /* can-bo*/
+  .single-cadres .col-md-5 strong {
+    font-size: 25px;
+  }
+
+  .single-cadres .row h3 {
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  /* HD-tuyen-sinh*/
+  .questions-template .row h1 {
+    font-size: 19px;
+  }
+
+  .questions-template .con-frm #text-8.widget {
+    padding: 16px;
+  }
+
+  .questions-template .row .right-sidebar,
+  .questions-template .row .admin_content {
+    width: 100%;
+    padding-bottom: 30px;
+  }
+
+  /* Search */
+  .template-event .wp-pagenavi a:nth-child(8) {
+    display: none;
+  }
+
+  .template-event .row .right-sidebar {
+    width: 100%;
+  }
+
+  /* BGH */
+  .admin-template .row .right-sidebar,
+  .admin-template .row .right-sidebar {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 415px) {
+  h2 {
+    font-size: 20px;
+  }
+
+  /* tin-tuc*/
+  .news-template .wp-pagenavi a:nth-child(4),
+  .news-template .wp-pagenavi a:nth-child(5) {
+    display: none;
+  }
+
+  .template-event .event .time {
+    top: 40%;
+  }
+
+  /* search */
+  .template-event .wp-pagenavi a:nth-child(7),
+  .template-event .wp-pagenavi span.extend {
+    display: none;
+  }
+}
+@media only screen and (max-width: 376px) {
+  /* .template-cardes .row {
+    display: block;
+  }
+
+  .template-cardes #post-list .row .article {
+    max-width: 100%;
+  } */
+
+  #post-list > .row {
+    display: block;
+  }
+
+  .template-cardes #post-list .row .article {
+    max-width: 100%;
+  }
+
+  .template-event .event .time {
+    top: 35%;
+  }
+
+  .questions-template .row a.active {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .news-template .wp-pagenavi a:nth-child(3) {
+    display: none;
+  }
+
+  .template-event .event .time {
+    top: 30%;
+  }
+  /*can-bo*/
+  .single-cadres .row strong {
+    font-size: 25px;
+  }
+  /*HD-tuyen-sinh */
+  .questions-template .row .admin_content.desc {
+    padding: 0 5px 30px;
+  }
+}

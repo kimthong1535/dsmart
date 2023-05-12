@@ -1,0 +1,1141 @@
+body, html
+
+{
+
+    margin: 0;
+
+    padding: 0;
+
+    border: 0;
+
+    font-size: 14px;
+
+    font-style: normal;
+
+    font-variant: normal;
+
+    font-weight: normal;
+
+    line-height: 150%;
+
+    -webkit-font-smoothing: antialiased;
+
+    -moz-font-smoothing: antialiased;
+
+    resize: none;
+
+    min-width: 100%;
+
+    min-height: 100%;
+
+    overflow-x: hidden;
+
+}
+
+
+
+ul, li
+
+{
+
+    margin: 0;
+
+    padding: 0;
+
+}
+
+
+
+a, a:link
+
+{
+
+    color: #313132;
+
+    text-decoration: none;
+
+}
+
+
+
+a:hover
+
+{
+
+    color: #000;
+
+    text-decoration: none;
+
+}
+
+
+
+a:visited, a:active
+
+{
+
+    text-decoration: none;
+
+    color: #313132;
+
+}
+
+
+
+.form-register input[type="text"], .form-register input[type="password"], .form-register input[type="email"], .form-register input[type="tel"], .form-register input[type="number"]
+
+{
+
+    border: 1px solid #ddd;
+
+    padding: 10px 8px;
+
+    height: auto;
+
+}
+
+
+
+.form-register label
+
+{
+
+    text-transform: uppercase;
+
+    font-weight: normal;
+
+}
+
+
+
+/* equal height */
+
+.equal-height
+
+{
+
+    display: table-cell;
+
+    height: 100%;
+
+}
+
+
+
+/* custom fonts */
+
+.font-playfair
+
+{
+
+
+    font-size: 14px;
+
+    line-height: 150%;
+
+}
+
+
+
+.font-sfui
+
+{
+
+
+    font-size: 14px;
+
+    line-height: 150%;
+
+}
+
+
+
+header.font-sfui
+
+{
+
+    border-bottom: 1px solid #ddd;
+
+}
+
+
+
+/* float, margin, padding */
+
+.float-left
+
+{
+
+    float: left;
+
+}
+
+
+
+.margin0
+
+{
+
+    margin: 0;
+
+}
+
+
+
+.padding0
+
+{
+
+    padding: 0;
+
+}
+
+
+
+/* fullwidth */
+
+.fullwidth
+
+{
+
+    width: 100%;
+
+    float: left;
+
+    clear: both;
+
+}
+
+
+
+/* link */
+
+.simple-link, .simple-link:hover, .simple-link:link, .simple-link:visited, .simple-link:active
+
+{
+
+    text-decoration: none;
+
+}
+
+
+
+/* icon circle */
+
+.ic-circle
+
+{
+
+    /*border-radius: 50%;*/
+
+    /*background: #6A6975;*/
+
+    /*display: table-cell;
+
+    text-align: center;
+
+    width: 50%;
+
+    height: 50%;
+
+    vertical-align: middle;*/
+
+}
+
+
+
+.ic-circle i
+
+{
+
+    color: rgba(255,255,266, 1);
+
+    /*font-size: 26px;*/
+
+    font-size: 16px;
+
+}
+
+
+
+.ic-circle.active, .ic-circle:hover
+
+{
+
+    /*background: #3979F3;*/
+
+}
+
+
+
+/* animated */
+
+.animated
+
+{
+
+    animation-duration: 3s;
+
+    animation-fill-mode: both;
+
+}
+
+
+
+@keyframes fadeIn
+
+{
+
+    from
+
+    {
+
+        opacity: 0;
+
+    }
+
+
+
+    to
+
+    {
+
+        opacity: 1;
+
+    }
+
+}
+
+
+
+.fadeIn
+
+{
+
+    animation-name: fadeIn;
+
+}
+
+
+
+@keyframes fadeInDown
+
+{
+
+    from
+
+    {
+
+        opacity: 0;
+
+        transform: translate3d(0, -100%, 0);
+
+    }
+
+
+
+    to
+
+    {
+
+        opacity: 1;
+
+        transform: none;
+
+    }
+
+}
+
+
+
+.fadeInDown
+
+{
+
+    animation-name: fadeInDown;
+
+    animation: fadeInDown 0.3s;
+
+}
+
+
+
+@keyframes fadeInUp
+
+{
+
+    from
+
+    {
+
+        opacity: 0;
+
+        transform: translate3d(0, 100%, 0);
+
+    }
+
+
+
+    to
+
+    {
+
+        opacity: 1;
+
+        transform: none;
+
+    }
+
+}
+
+
+
+.fadeInUp
+
+{
+
+    animation-name: fadeInUp;
+
+    animation: fadeInUp 1.7s;
+
+}
+
+
+
+.no_select
+
+{
+
+    -webkit-touch-callout: none; /* iOS Safari */
+
+    -webkit-user-select: none; /* Safari */
+
+    -khtml-user-select: none; /* Konqueror HTML */
+
+    -moz-user-select: none; /* Firefox */
+
+    -ms-user-select: none; /* Internet Explorer/Edge */
+
+    user-select: none; /* Non-prefixed version, currently
+
+                                  supported by Chrome and Opera */
+
+}
+
+
+
+.btn-checkout-general
+
+{
+
+    padding: 10px 80px;
+
+    color: #fff !important;
+
+    background: #313132;
+
+    font-size: 18px;
+
+    margin-top: 0px;
+
+    margin-bottom: 0px;
+
+}
+
+
+
+.btn-login
+
+{
+
+    width: 100%;
+
+    margin-top: 20px;
+
+    margin-bottom: 0px;
+
+}
+
+
+
+#login-form-guest .btn-login
+
+{
+
+    margin-top: 10px;
+
+}
+
+
+
+.btn-register
+
+{
+
+    padding: 10px 80px;
+
+    color: #fff !important;
+
+    background: #313132;
+
+    font-size: 18px;
+
+    margin-top: 10px;
+
+    margin-bottom: 20px;
+
+}
+
+
+
+.login-wrap .link-account-register
+
+{
+
+    display: block;
+
+    float: left;
+
+    padding: 10px 15px 10px 0;
+
+    font-size: 16px;
+
+    text-decoration: underline;
+
+}
+
+
+
+.text-center
+
+{
+
+    text-align: center !important;
+
+}
+
+
+
+.display-block
+
+{
+
+    display: block;
+
+}
+
+
+
+.bg-transparent
+
+{
+
+    background-color: transparent !important;
+
+}
+
+
+
+/** Responsive */
+
+@media screen and (min-width: 1200px)
+
+{
+
+    .content_wp
+
+    {
+        max-width: initial;
+        width: 80%;
+
+    }
+
+}
+
+
+
+@media screen and (min-width: 768px)
+
+{
+
+
+
+    .no_margin, .no-margin
+
+    {
+
+        margin-left: 0 !important;
+
+        margin-top: 0 !important;
+
+        margin-right: 0 !important;
+
+        margin-bottom: 0 !important;
+
+    }
+
+
+
+    .no-margin-left
+
+    {
+
+        margin-left: 0 !important;
+
+    }
+
+
+
+    .no-margin-right
+
+    {
+
+        margin-right: 0 !important;
+
+    }
+
+
+
+    .no-padding-left
+
+    {
+
+        padding-left: 0 !important;
+
+    }
+
+
+
+    .no-padding-right
+
+    {
+
+        padding-right: 0 !important;
+
+    }
+
+}
+
+
+
+@media screen and (max-width: 767px)
+
+{
+
+    .row.no-margin
+
+    {
+
+        margin-left: 0 !important;
+
+        margin-top: 0 !important;
+
+        margin-right: 0 !important;
+
+        margin-bottom: 0 !important;
+
+    }
+
+
+
+    .btn.btn-checkout-general
+
+    {
+
+        width: 100%;
+
+    }
+
+
+
+    .form-register .form-group
+
+    {
+
+        margin-bottom: 18px;
+
+    }
+
+}
+
+
+
+/**Popups*/
+
+.popup
+
+{
+
+    position: relative
+
+}
+
+
+
+.popup-close-btn
+
+{
+
+    position: absolute;
+
+    top: 0;
+
+    right: 0;
+
+    width: 30px;
+
+    height: 30px;
+
+    background: #FFF;
+
+    font-weight: bold;
+
+    font-size: 28px;
+
+    line-height: 1.1;
+
+    cursor: pointer;
+
+    text-align: center;
+
+}
+
+
+
+.popup img
+
+{
+
+    max-width: 100%;
+
+}
+
+
+
+/* @Giftcode */
+
+.get_giftcode
+
+{
+
+    padding: 35px 50px 30px;
+
+    background: #fef5ca;
+
+    max-width: 500px;
+
+    text-align: center;
+
+}
+
+
+
+.get_giftcode .text-medium
+
+{
+
+    font-size: 30px;
+
+    line-height: 1.3;
+
+}
+
+
+
+.get_giftcode .text-extra
+
+{
+
+    font-size: 60px;
+
+    line-height: 1.3;
+
+}
+
+
+
+.get_giftcode form
+
+{
+
+    margin-top: 60px;
+
+}
+
+
+
+.get_giftcode input[type="text"], .get_giftcode input[type="email"]
+
+{
+
+    width: 350px;
+
+    padding: 10px;
+
+    border: 1px solid #999;
+
+    border-radius: 6px;
+
+}
+
+
+
+.get_giftcode button
+
+{
+
+    font-size: 28px;
+
+    background: #9E0A0C;
+
+    border-radius: 6px;
+
+    padding: 11px 18px;
+
+    margin-top: 30px;
+
+    color: #FFF;
+
+    border: 1px solid;
+
+}
+
+
+
+.get_giftcode .text-note
+
+{
+
+    font-size: 16px;
+
+    margin-top: 80px
+
+}
+
+
+
+/* @Popup Size Guide */
+
+.popup-size-guide
+
+{
+
+    padding-top: 30px;
+
+    max-width: 960px;
+
+}
+
+
+
+input::-webkit-input-placeholder
+
+{ /* Chrome/Opera/Safari */
+
+    color: #999;
+
+}
+
+
+
+input::-moz-placeholder
+
+{ /* Firefox 19+ */
+
+    color: #999;
+
+}
+
+
+
+input:-ms-input-placeholder
+
+{ /* IE 10+ */
+
+    color: #999;
+
+}
+
+
+
+input:-moz-placeholder
+
+{ /* Firefox 18- */
+
+    color: #999;
+
+}
+
+
+
+@media only screen and (max-width: 767px)
+
+{
+
+    .get_giftcode{
+
+        padding: 25px 15px 20px;
+
+        max-width: 90%;
+
+    }
+
+
+
+    .get_giftcode input[type="text"], .get_giftcode input[type="email"]
+
+    {
+
+        width: 100%;
+
+    }
+
+
+
+    .get_giftcode .text-medium
+
+    {
+
+        font-size: 16px;
+
+        line-height: 1.3;
+
+    }
+
+
+
+    .get_giftcode .text-extra
+
+    {
+
+        font-size: 40px;
+
+        line-height: 1.3;
+
+    }
+
+
+
+    .get_giftcode .text-note
+
+    {
+
+        margin-top: 30px;
+
+        font-size: 11px;
+
+    }
+
+
+
+    .get_giftcode form{
+
+        margin-top: 30px;
+
+    }
+
+}
+
+
+
+/***/
+
+
+
+/** Reset form-control */
+
+.form-control
+
+{
+
+    -webkit-box-shadow: none;
+
+    box-shadow: none;
+
+    -webkit-transition: none;
+
+}
+
+
+
+.form-control:focus {
+
+    -webkit-box-shadow: none;
+
+    box-shadow: none;
+
+    border-color: #ccc;
+
+}
+
+
+
+.search-box-wp{
+
+    margin-bottom: 0;
+
+}
+
+.search-box-wp input.form-control{
+
+    height: 30px;
+
+}
+
+.search-box-wp .twitter-typeahead{
+
+    margin-right: 8px;
+
+}
+
+
+
+    .search-box-wp .tt-hint {
+
+        background: none 0% 0% / auto repeat scroll padding-box padding-box;
+
+    }
+
+
+
+    .search-box {
+
+    }
+
+
+
+.search-box-wp .search-box-close{
+
+    display: none;
+
+}
+
+
+
+.tt-dataset {
+
+    width: 250px;
+
+    text-align: left;
+
+    text-transform: none;
+
+}
+
+
+
+.tt-suggestion img{
+
+    float: left;
+
+    width: 60px;
+
+}
+
+
+
+.tt-suggestion a.product-name {
+
+    display: inline-block;
+
+    margin-left: 10px;
+
+    width: calc(100% - 70px);
+
+    text-decoration: none;
+
+    font-size: 16px;
+
+    color: #313132!important;
+
+    line-height: 1.2em;
+
+}
+
+
+
+.tt-suggestion a.product-name:hover {
+
+    text-decoration: underline;
+
+}
+
+
+
+.tt-menu {
+
+    background: #fff;
+
+    padding: 15px;
+
+    border-radius: 5px;
+
+    box-shadow: 0px 0px 1px #ddd;
+
+}
+
+
+
+@media screen and (max-width: 767px){
+
+    .search-box-wp{
+
+        position: fixed;
+
+        top: 0;
+
+        right: 0;
+
+        left: 0;
+
+        padding: 15px 15px 3px;
+
+        padding-right: 15px;
+
+        background: #fff;
+
+        z-index: 999;
+
+    }
+
+    .search-box-wp .twitter-typeahead{
+
+        width: calc(100% - 45px);
+
+    }
+
+    .search-box-wp .search-box-close {
+
+        display: inline-block;
+
+        width: 30px;
+
+        padding: 3px 6px;
+
+        margin-top: -3px;
+
+    }
+
+    .search-box-wp .twitter-typeahead .tt-menu{
+
+        width: 100%;
+
+    }
+
+    .search-box-wp .twitter-typeahead .tt-dataset{
+
+        width: auto;
+
+    }
+
+}
+
+
+
+/**@Owl carousel*/
+
+/*.owl-carousel {
+
+    touch-action: none;
+
+}*/
